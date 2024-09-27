@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import "@fontsource/rubik"; // Defaults to weight 400
+import "@fontsource/rubik/400.css"; // Specify weight
+import "@fontsource/rubik/400-italic.css"; // Specify weight and style
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -10,6 +14,12 @@ const geistSans = localFont({
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
+  weight: "100 900",
+});
+// Import Rubik font
+const rubik = localFont({
+  src: "./fonts/Rubik-Regular.woff",
+  variable: "--font-rubik",
   weight: "100 900",
 });
 
@@ -25,11 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${rubik.variable} antialiased`}>{children}</body>
     </html>
   );
 }
