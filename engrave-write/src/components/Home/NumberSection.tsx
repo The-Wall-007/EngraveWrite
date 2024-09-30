@@ -48,6 +48,7 @@ const NumberSection = () => {
                   color: "#fff",
                   fontFamily: "rubik",
                   lineHeight: "40px",
+                  textAlign: "center",
                 }}
               >
                 {item.title}
@@ -61,6 +62,7 @@ const NumberSection = () => {
                   color: "#fff",
                   fontFamily: "rubik",
                   lineHeight: "40px",
+                  textAlign: "center",
                 }}
               >
                 {item.subTitle}

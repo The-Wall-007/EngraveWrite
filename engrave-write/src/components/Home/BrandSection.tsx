@@ -20,6 +20,7 @@ const BrandSection = () => {
             color: "#2c2c2c",
             fontFamily: "rubik",
             lineHeight: "40px",
+            textAlign: "center",
           }}
         >
           Brands Who Trust us
