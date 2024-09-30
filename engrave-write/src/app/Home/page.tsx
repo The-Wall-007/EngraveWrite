@@ -5,6 +5,7 @@ import BrandSection from "@/components/Home/BrandSection";
 import NumberSection from "@/components/Home/NumberSection";
 import IntroductionSection from "@/components/Home/IntroductionSection";
 import ServicesSection from "@/components/Home/ServicesSection";
+import WelcomeSection from "@/components/Home/WelcomeSection";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       <NumberSection />
 
       <BrandSection />
+
+      <WelcomeSection />
 
       <ServicesSection />
     </React.Fragment>
