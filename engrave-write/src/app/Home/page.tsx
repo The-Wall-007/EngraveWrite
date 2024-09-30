@@ -6,6 +6,7 @@ import NumberSection from "@/components/Home/NumberSection";
 import IntroductionSection from "@/components/Home/IntroductionSection";
 import ServicesSection from "@/components/Home/ServicesSection";
 import WelcomeSection from "@/components/Home/WelcomeSection";
+import PromiseSection from "@/components/Home/PromiseSection";
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
       <WelcomeSection />
 
       <ServicesSection />
+
+      <PromiseSection />
     </React.Fragment>
   );
 };
