@@ -10,6 +10,7 @@ import PromiseSection from "@/components/Home/PromiseSection";
 import ProcessSection from "@/components/Home/ProcessSection";
 import CaseStudy from "@/components/Home/CaseStudy";
 import ClientReview from "@/components/Home/ClientReview";
+import QuestionsSection from "@/components/Home/QuestionsSection";
 
 const Home = () => {
   return (
@@ -33,6 +34,8 @@ const Home = () => {
       <CaseStudy />
 
       <ClientReview />
+
+      <QuestionsSection />
     </React.Fragment>
   );
 };
