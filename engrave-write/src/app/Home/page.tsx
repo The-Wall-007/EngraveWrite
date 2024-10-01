@@ -8,6 +8,7 @@ import ServicesSection from "@/components/Home/ServicesSection";
 import WelcomeSection from "@/components/Home/WelcomeSection";
 import PromiseSection from "@/components/Home/PromiseSection";
 import ProcessSection from "@/components/Home/ProcessSection";
+import CaseStudy from "@/components/Home/CaseStudy";
 
 const Home = () => {
   return (
@@ -27,6 +28,8 @@ const Home = () => {
       <PromiseSection />
 
       <ProcessSection />
+
+      <CaseStudy />
     </React.Fragment>
   );
 };
