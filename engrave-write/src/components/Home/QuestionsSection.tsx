@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Grid from "@mui/material/Grid2";
 
 // Sample FAQ array
 const faqs = [
@@ -43,6 +44,29 @@ const faqs = [
     question: "What payment methods do you accept?",
     answer:
       "We accept major credit cards, PayPal, and other secure payment options.",
+  },
+];
+
+const Brands = [
+  {
+    id: "1",
+    imageUrl: "./assets/EngraveIcons/GoogleLogos/GoogleAnalytic.svg",
+  },
+  {
+    id: "2",
+    imageUrl: "./assets/EngraveIcons/GoogleLogos/Semrush.svg",
+  },
+  {
+    id: "3",
+    imageUrl: "./assets/EngraveIcons/GoogleLogos/HubSpot.svg",
+  },
+  {
+    id: "4",
+    imageUrl: "./assets/EngraveIcons/GoogleLogos/GoogleAds.svg",
+  },
+  {
+    id: "5",
+    imageUrl: "./assets/EngraveIcons/GoogleLogos/GooglePartner.svg",
   },
 ];
 
@@ -180,6 +204,29 @@ const QuestionsSection = () => {
           ))}
         </CardContent>
       </Card>
+      <Stack sx={{ marginTop: 8 }}>
+        <Grid
+          container
+          spacing={{
+            xs: 1,
+            sm: 1,
+            md: 2,
+            lg: 2,
+          }}
+        >
+          {Brands.map((item) => (
+            <Grid
+              key={item.id}
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              size="grow"
+            >
+              <img src={item.imageUrl} alt="My Icon" />
+            </Grid>
+          ))}
+        </Grid>
+      </Stack>
     </Stack>
   );
 };
