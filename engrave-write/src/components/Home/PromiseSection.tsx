@@ -99,7 +99,7 @@ const PromiseSection = () => {
       >
         <Grid container spacing={2}>
           {PromisesData.map((item) => (
-            <Grid size={{ xs: 6, sm: 6, md: 6, lg: 3 }}>
+            <Grid size={{ xs: 6, sm: 6, md: 6, lg: 3 }} key={item.id}>
               <Card
                 key={item.id}
                 sx={{

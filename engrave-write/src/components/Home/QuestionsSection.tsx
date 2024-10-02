@@ -70,7 +70,7 @@ const QuestionsSection = () => {
     >
       <Card
         sx={{
-          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)", // Add shadow here
+          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
           borderRadius: 2,
           marginBottom: 2,
           padding: {
@@ -101,7 +101,7 @@ const QuestionsSection = () => {
               textAlign: "center",
             }}
           >
-            Engrave write can help you with
+            Frequently Asked Questions
           </Typography>
 
           <Stack
@@ -154,13 +154,11 @@ const QuestionsSection = () => {
                   {faq.question}
                 </Typography>
 
-                <IconButton onClick={() => handleToggle(faq.id)}>
-                  {openId === faq.id ? (
-                    <KeyboardArrowUpIcon sx={{ color: "#2c2c2c" }} />
-                  ) : (
-                    <KeyboardArrowDownIcon sx={{ color: "#2c2c2c" }} />
-                  )}
-                </IconButton>
+                {openId === faq.id ? (
+                  <KeyboardArrowUpIcon sx={{ color: "#2c2c2c" }} />
+                ) : (
+                  <KeyboardArrowDownIcon sx={{ color: "#2c2c2c" }} />
+                )}
               </ButtonBase>
 
               <Collapse in={openId === faq.id}>

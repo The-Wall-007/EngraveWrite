@@ -173,8 +173,8 @@ const ClientReview = () => {
                     {Array.from(
                       { length: review.reviewStar },
                       (_, index) => index
-                    ).map((item) => (
-                      <StarIcon sx={{ color: "#EFC003" }} />
+                    ).map((item, index) => (
+                      <StarIcon key={index} sx={{ color: "#EFC003" }} />
                     ))}
                   </Stack>
 

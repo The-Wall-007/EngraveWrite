@@ -121,9 +121,8 @@ const CaseStudy = () => {
 
       <Grid container sx={{ marginTop: 8 }} spacing={4}>
         {serviceData.map((item) => (
-          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 4 }}>
+          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 4 }} key={item.id}>
             <Card
-              key={item.id}
               sx={{
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
                 backgroundColor: "#fff",
