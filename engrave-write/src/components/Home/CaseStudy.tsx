@@ -10,61 +10,61 @@ const serviceData = [
     id: 1,
     imagePath: "./assets/EngraveIcons/CaseStudies/AuzzieTurff.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Developed a clean, intuitive layout that enhances user experience and simplifies navigation for customers",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Ensured the website is fully responsive, providing an optimal viewing experience across all devices, from desktops to smartphones.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Implemented seamless e-commerce functionality, allowing customers to easily browse and purchase turf products online.",
   },
   {
     id: 2,
     imagePath: "./assets/EngraveIcons/CaseStudies/DesserCorner.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Created a visually stunning design that captures the essence of Dessert Corner, enticing customers with vibrant imagery and engaging layouts.",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Designed elements that reflect the brand’s personality, enhancing recognition and connection with the target audience.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Focused on interactive features that encourage customer interaction, such as a blog section and social media integration.",
   },
   {
     id: 3,
     imagePath: "./assets/EngraveIcons/CaseStudies/PlatinumDeveloper.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Developed and executed targeted marketing campaigns that effectively reach key demographics and drive engagement.",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      " Implemented SEO best practices to improve search engine visibility, resulting in increased website traffic and lead generation.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Utilized data analytics tools to track campaign performance, allowing for ongoing optimization and improved results.",
   },
   {
     id: 4,
     imagePath: "./assets/EngraveIcons/CaseStudies/Oreva.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Developed an all-encompassing digital marketing strategy that includes SEO, social media marketing, and content marketing to enhance brand visibility and engagement.",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Implemented advanced analytics tools to monitor campaign performance, enabling data-driven decisions and continuous optimization for better results.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Created and managed targeted online advertising campaigns that effectively reach specific demographics",
   },
   {
     id: 5,
     imagePath: "./assets/EngraveIcons/CaseStudies/KFC.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Produced durable and visually striking signage that withstands the elements while effectively communicating brand messaging.",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Designed and installed signage in high-visibility locations to maximize customer attraction and foot traffic.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Ensured all signage aligns with KFC’s branding guidelines, maintaining a cohesive look across all locations.",
   },
   {
     id: 6,
     imagePath: "./assets/EngraveIcons/CaseStudies/Buildborne.svg",
     description1:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Developed tailored software solutions that address specific operational needs, enhancing productivity and project management.",
     description2:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Provided comprehensive training for staff to ensure smooth adoption and effective use of the new software system.",
     description3:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Offered ongoing technical support and updates, ensuring the software remains efficient and up-to-date with evolving business needs.",
   },
 ];
 

@@ -14,7 +14,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/WebDevelopment.svg",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Build robust, scalable websites tailored to your business needs, ensuring optimal performance and user experience",
     navigateTo: "",
   },
   {
@@ -22,7 +22,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/WebDesign.svg",
     title: "Web Design",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Create visually stunning and intuitive designs that reflect your brand identity and engage your audience.",
     navigateTo: "",
   },
   {
@@ -30,7 +30,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/SignageSolution.svg",
     title: "Signage Solution",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Provide high-quality, customized signage that enhances visibility and communicates your brand message effectively.",
     navigateTo: "",
   },
   {
@@ -38,7 +38,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/DigitalMarketing.svg",
     title: "Digital Marketing",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Implement targeted strategies to boost your online presence, drive traffic, and increase conversions across various platforms.",
     navigateTo: "",
   },
   {
@@ -46,7 +46,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/GraphicDesign.svg",
     title: "Graphic Design",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Deliver creative and impactful designs that elevate your brand, from logos to marketing materials.",
     navigateTo: "",
   },
   {
@@ -54,7 +54,7 @@ const serviceData = [
     imagePath: "./assets/EngraveIcons/ServicesIcons/SoftwareSolution.svg",
     title: "Software Solution",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+      "Develop tailored software applications that streamline operations and improve efficiency for your business.",
     navigateTo: "",
   },
 ];

@@ -72,17 +72,12 @@ const WelcomeSection = () => {
               textAlign: "justify",
             }}
           >
-            Engrave Write is a dynamic printing and signage business founded in
-            2001 and located in the heart of Dandenong, Melbourne. Since our
-            inception, we have been committed to delivering high-quality signage
-            and printing solutions that help brands stand out. Initially
-            starting with a laser engraving machine, we expanded our
-            capabilities by adding a small CNC machine, which allowed us to
-            tackle a wider variety of projects. As demand grew, we invested in a
-            Large Format Printer to ensure faster turnaround times and
-            unparalleled quality. Our continued growth led to the acquisition of
-            a new CNC machine, enabling us to efficiently handle larger and more
-            diverse projects.
+            Engrave Write, founded in 2001 and located in the heart of Dandenong, Melbourne, is a dynamic printing and signage
+            business dedicated to helping brands stand out. Starting with a laser engraving machine, we have expanded our
+            capabilities to include advanced CNC machining and large format printing, ensuring high-quality results and
+            fast turnaround times. In addition to our printing services, we now offer comprehensive IT solutions, including
+            web design, web development, digital marketing, and e-commerce development, providing a seamless integration of
+            physical and digital branding to meet the evolving needs of our clients.
           </Typography>
 
           <Stack
