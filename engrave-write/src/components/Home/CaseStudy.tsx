@@ -3,68 +3,87 @@ import { Stack, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const serviceData = [
   {
     id: 1,
-    imagePath: "./assets/EngraveIcons/Case Studies/Auzzie Turff.svg",
-    description:
-      "Engrave Write specializes in creating.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/AuzzieTurff.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
   {
     id: 2,
-    imagePath: "./assets/EngraveIcons/Case Studies/Desser Corner.svg",
-    description:
-      "Engrave Write specializes in creating tailored th potential clients.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/DesserCorner.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
   {
     id: 3,
-    imagePath: "./assets/EngraveIcons/Case Studies/Platinum Developer.svg",
-    description:
-      "Engrave Write specializes in creating tailored web.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/PlatinumDeveloper.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
   {
     id: 4,
-    imagePath: "./assets/EngraveIcons/Case Studies/Oreva.svg",
-    description:
-      "Engrave Write specializes in creating tailoreds.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/Oreva.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
   {
     id: 5,
-    imagePath: "./assets/EngraveIcons/Case Studies/KFC.svg",
-    description:
-      "Engrave Write specializes in creating tailored.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/KFC.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
   {
     id: 6,
-    imagePath: "./assets/EngraveIcons/Case Studies/Buildborne.svg",
-    description:
-      "Engrave Writelp showcase your skills and build trust in the digital marketplace.",
-    navigateTo: "",
+    imagePath: "./assets/EngraveIcons/CaseStudies/Buildborne.svg",
+    description1:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description2:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
+    description3:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde velit consequatur in laudantium, doloremque consequuntur beatae tenetur temporibus veritatis et corporis! Quo similique nostrum ex culpa cupiditate, nobis rem.",
   },
 ];
 
-const ServicesSection = () => {
+const CaseStudy = () => {
   return (
-    <Grid
-      container
+    <Stack
       sx={{
+        backgroundColor: "#fff",
+        display: "flex",
+        flex: 1,
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
         padding: {
           xs: 4,
           sm: 6,
           md: 8,
-          lg: 12,
+          lg: 8,
         },
-        backgroundColor: "#fff",
       }}
     >
       <Stack
@@ -103,9 +122,8 @@ const ServicesSection = () => {
 
       <Grid container sx={{ marginTop: 8 }} spacing={4}>
         {serviceData.map((item) => (
-          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 4 }}>
+          <Grid size={{ xs: 12, sm: 12, md: 6, lg: 4 }} key={item.id}>
             <Card
-              key={item.id}
               sx={{
                 boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
                 backgroundColor: "#fff",
@@ -125,86 +143,156 @@ const ServicesSection = () => {
                   <img
                     src={item.imagePath}
                     alt="My Icon"
-                    width="255.3px"
-                    height="55.24px"
+                    style={{ maxHeight: 52 }}
                   />
-
-                  <Typography
-                    sx={{
-                      fontSize: "30px",
-                      fontWeight: "500",
-                      lineHeight: "36px",
-                      fontFamily: "rubik",
-                      textAlign: "center",
-                      color: "#0E0E2F",
-                      marginTop: 2,
-                    }}
-                  >
-                    
-                  </Typography>
 
                   <Stack
                     sx={{
-                      marginTop: 2,
-                      height: 5,
-                      width: 88,
+                      marginTop: 4,
+                      height: 2,
+                      width: "100%",
                       backgroundColor: "#0E0E2F",
                       borderRadius: 2,
+                      marginBottom: 4,
                     }}
                   />
 
-                  <Typography
+                  <Stack
                     sx={{
-                      fontSize: "18px",
-                      fontWeight: "400",
-                      color: "#2C2C2C",
-                      lineHeight: "28px",
-                      fontFamily: "rubik",
-                      overflow: "hidden",
-                      display: "-webkit-box",
-                      WebkitLineClamp: 2,
-                      WebkitBoxOrient: "vertical",
-                      marginTop: 4,
-                      marginBottom: 2,
-                      textAlign: "center",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      gap: 1,
                     }}
                   >
-                    {item.description}
-                  </Typography>
-                </Box>
-
-                <CardActions
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  <Button size="small">
-                    <Typography
+                    <Stack
                       sx={{
-                        fontSize: "12px",
-                        fontWeight: "500",
-                        fontFamily: "rubik",
-                        color: "#00007D",
-                        marginRight: 1,
+                        height: 5,
+                        width: 5,
+                        borderRadius: 5,
+                        backgroundColor: "#2C2C2C",
+                      }}
+                    />
+
+                    <Stack
+                      sx={{
+                        display: "flex",
+                        flex: 1,
+                        flexDirection: "row",
                       }}
                     >
-                      Learn More
-                    </Typography>
+                      <Typography
+                        sx={{
+                          fontSize: "18px",
+                          fontWeight: "400",
+                          color: "#2C2C2C",
+                          lineHeight: "28px",
+                          fontFamily: "rubik",
+                          overflow: "hidden",
+                          display: "-webkit-box",
+                          WebkitLineClamp: 1,
+                          WebkitBoxOrient: "vertical",
+                          textAlign: "left",
+                        }}
+                      >
+                        {item.description1}
+                      </Typography>
+                    </Stack>
+                  </Stack>
 
-                    <ArrowForwardIosIcon
-                      sx={{ fontSize: 12, color: "#00007D" }}
+                  <Stack
+                    sx={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      gap: 1,
+                    }}
+                  >
+                    <Stack
+                      sx={{
+                        height: 5,
+                        width: 5,
+                        borderRadius: 5,
+                        backgroundColor: "#2C2C2C",
+                      }}
                     />
-                  </Button>
-                </CardActions>
+
+                    <Stack
+                      sx={{
+                        display: "flex",
+                        flex: 1,
+                        flexDirection: "row",
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontSize: "18px",
+                          fontWeight: "400",
+                          color: "#2C2C2C",
+                          lineHeight: "28px",
+                          fontFamily: "rubik",
+                          overflow: "hidden",
+                          display: "-webkit-box",
+                          WebkitLineClamp: 1,
+                          WebkitBoxOrient: "vertical",
+                          textAlign: "left",
+                        }}
+                      >
+                        {item.description2}
+                      </Typography>
+                    </Stack>
+                  </Stack>
+
+                  <Stack
+                    sx={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      gap: 1,
+                    }}
+                  >
+                    <Stack
+                      sx={{
+                        height: 5,
+                        width: 5,
+                        borderRadius: 5,
+                        backgroundColor: "#2C2C2C",
+                      }}
+                    />
+
+                    <Stack
+                      sx={{
+                        display: "flex",
+                        flex: 1,
+                        flexDirection: "row",
+                      }}
+                    >
+                      <Typography
+                        sx={{
+                          fontSize: "18px",
+                          fontWeight: "400",
+                          color: "#2C2C2C",
+                          lineHeight: "28px",
+                          fontFamily: "rubik",
+                          overflow: "hidden",
+                          display: "-webkit-box",
+                          WebkitLineClamp: 1,
+                          WebkitBoxOrient: "vertical",
+                          textAlign: "left",
+                        }}
+                      >
+                        {item.description3}
+                      </Typography>
+                    </Stack>
+                  </Stack>
+                </Box>
               </CardContent>
             </Card>
           </Grid>
         ))}
       </Grid>
-    </Grid>
+    </Stack>
   );
 };
 
-export default ServicesSection;
+export default CaseStudy;
