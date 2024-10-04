@@ -1,5 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
+import ServicesSection from "@/components/ItServices/ServicesSection";
 
 const ItServices = () => {
   return (
@@ -49,6 +50,8 @@ const ItServices = () => {
           />
         </Stack>
       </Stack>
+
+      <ServicesSection />
     </React.Fragment>
   );
 };

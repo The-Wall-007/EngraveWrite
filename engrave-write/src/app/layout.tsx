@@ -7,6 +7,7 @@ import "@fontsource/rubik/400.css"; // Specify weight
 import "@fontsource/rubik/400-italic.css"; // Specify weight and style
 import Header from "@/components/MainHeader/MainHeader";
 import QuestionsSection from "@/components/Home/QuestionsSection";
+import ClientReview from "@/components/Home/ClientReview";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -42,6 +43,7 @@ export default function RootLayout({
         <Header />
         {children}
         {/* Move QuestionsSection inside the body */}
+        <ClientReview />
         <QuestionsSection />
       </body>
     </html>
