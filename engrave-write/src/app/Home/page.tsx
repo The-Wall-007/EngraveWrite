@@ -32,8 +32,6 @@ const Home = () => {
       <ProcessSection />
 
       <CaseStudy />
-
-      <ClientReview />
     </React.Fragment>
   );
 };

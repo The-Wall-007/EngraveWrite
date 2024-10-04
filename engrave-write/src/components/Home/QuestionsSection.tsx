@@ -12,6 +12,7 @@ import {
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Grid from "@mui/material/Grid2";
+import ContactBoard from "../ContactInfo/ContactBoard";
 
 // Sample FAQ array
 const faqs = [
@@ -204,29 +205,32 @@ const QuestionsSection = () => {
           ))}
         </CardContent>
       </Card>
-      <Stack sx={{ marginTop: 8 }}>
-        <Grid
-          container
-          spacing={{
-            xs: 1,
-            sm: 1,
-            md: 2,
-            lg: 2,
-          }}
-        >
-          {Brands.map((item) => (
-            <Grid
-              key={item.id}
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              size="grow"
-            >
-              <img src={item.imageUrl} alt="My Icon" />
-            </Grid>
-          ))}
-        </Grid>
+
+      <Stack sx={{ marginTop: 8, marginBottom: 8 }}>
+        <ContactBoard />
       </Stack>
+
+      <Grid
+        container
+        spacing={{
+          xs: 1,
+          sm: 1,
+          md: 2,
+          lg: 2,
+        }}
+      >
+        {Brands.map((item) => (
+          <Grid
+            key={item.id}
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            size="grow"
+          >
+            <img src={item.imageUrl} alt="My Icon" />
+          </Grid>
+        ))}
+      </Grid>
     </Stack>
   );
 };
