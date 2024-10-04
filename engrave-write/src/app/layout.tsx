@@ -5,6 +5,10 @@ import "./globals.css";
 import "@fontsource/rubik"; // Defaults to weight 400
 import "@fontsource/rubik/400.css"; // Specify weight
 import "@fontsource/rubik/400-italic.css"; // Specify weight and style
+import Header from "@/components/MainHeader/MainHeader";
+import QuestionsSection from "@/components/Home/QuestionsSection";
+import ClientReview from "@/components/Home/ClientReview";
+import Footer from "@/components/MainFooter/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,7 +39,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${rubik.variable} antialiased`}>{children}</body>
+      <body className={`${rubik.variable} antialiased`}>
+        {/* Move Header inside the body */}
+        <Header />
+        {children}
+        {/* Move QuestionsSection inside the body */}
+        <ClientReview />
+        <QuestionsSection />
+        <Footer />
+      </body>
     </html>
   );
 }

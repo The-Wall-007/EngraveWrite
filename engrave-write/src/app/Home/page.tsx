@@ -15,7 +15,7 @@ import QuestionsSection from "@/components/Home/QuestionsSection";
 const Home = () => {
   return (
     <React.Fragment>
-      <Header />
+      {/* <Header /> */}
 
       <IntroductionSection />
 
@@ -32,10 +32,6 @@ const Home = () => {
       <ProcessSection />
 
       <CaseStudy />
-
-      <ClientReview />
-
-      <QuestionsSection />
     </React.Fragment>
   );
 };

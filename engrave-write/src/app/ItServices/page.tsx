@@ -1,7 +1,8 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
+import ServicesSection from "@/components/ItServices/ServicesSection";
 
-const About = () => {
+const ItServices = () => {
   return (
     <React.Fragment>
       <Stack
@@ -35,7 +36,7 @@ const About = () => {
               textAlign: "center",
             }}
           >
-            About Us
+            Digital Marketing
           </Typography>
 
           <Stack
@@ -49,8 +50,10 @@ const About = () => {
           />
         </Stack>
       </Stack>
+
+      <ServicesSection />
     </React.Fragment>
   );
 };
 
-export default About;
+export default ItServices;

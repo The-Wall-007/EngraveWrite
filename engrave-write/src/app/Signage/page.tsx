@@ -1,7 +1,10 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
 
-const About = () => {
+import Header from "@/components/Header";
+import ServicesDone from "@/components/Signage/ServicesDone";
+
+const Signage = () => {
   return (
     <React.Fragment>
       <Stack
@@ -35,7 +38,7 @@ const About = () => {
               textAlign: "center",
             }}
           >
-            About Us
+            Signage Solution
           </Typography>
 
           <Stack
@@ -49,8 +52,10 @@ const About = () => {
           />
         </Stack>
       </Stack>
+
+      <ServicesDone />
     </React.Fragment>
   );
 };
 
-export default About;
+export default Signage;

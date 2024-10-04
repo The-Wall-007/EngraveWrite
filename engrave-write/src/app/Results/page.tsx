@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
 
-const About = () => {
+const Results = () => {
   return (
     <React.Fragment>
       <Stack
@@ -35,7 +35,7 @@ const About = () => {
               textAlign: "center",
             }}
           >
-            About Us
+            Results
           </Typography>
 
           <Stack
@@ -53,4 +53,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Results;
