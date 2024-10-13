@@ -8,7 +8,7 @@ const PromisesData = [
   {
     id: 1,
     imagePath: "./assets/EngraveIcons/Promises/one.svg",
-    description: "Authenticity in Quality,Across Digital and Physical Spaces",
+    description: "Authenticity in Quality, Across Digital and Physical Spaces",
     navigateTo: "",
   },
   {

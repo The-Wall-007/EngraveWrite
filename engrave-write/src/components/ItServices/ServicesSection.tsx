@@ -30,7 +30,7 @@ const data = [
   },
   {
     id: 2,
-    title: "Corporate/Shop & Building Signage",
+    title: "Corporate/Shop & Building Signage",
     description: "Our team skillfully manufactures high-quality 3D signs, reception signs, graphic prints, and window prints, all of which are tailored to give your brand a big boost and help it stand out from the competition",
     imagesURI: [
       "https://picsum.photos/200/300",
