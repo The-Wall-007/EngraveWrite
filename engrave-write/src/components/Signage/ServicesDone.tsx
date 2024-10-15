@@ -22,30 +22,46 @@ const data = [
     description:
       "At Engrave Write, our highest priority is designing, creating and producing high-visibility, informative, and eye-catching signs, whether it be for an Excavator or Construction Project.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/Excavator&ConstructionSignage/1.jpg",
+      "./assets/images/Excavator&ConstructionSignage/2.jpg",
+      "./assets/images/Excavator&ConstructionSignage/3.jpg",
+      "./assets/images/Excavator&ConstructionSignage/4.jpg",
+      "./assets/images/Excavator&ConstructionSignage/5.jpg",
+      "./assets/images/Excavator&ConstructionSignage/6.jpg",
+      "./assets/images/Excavator&ConstructionSignage/7.jpg",
+      "./assets/images/Excavator&ConstructionSignage/8.jpg",
+      "./assets/images/Excavator&ConstructionSignage/9.jpg",
+      "./assets/images/Excavator&ConstructionSignage/10.jpg",
     ],
   },
   {
     id: 2,
-    title: "Corporate/Shop & Building Signage",
+    title: "Corporate/Shop & Building Signage",
     description: "Our team skillfully manufactures high-quality 3D signs, reception signs, graphic prints, and window prints, all of which are tailored to give your brand a big boost and help it stand out from the competition",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/CorporateShop/1.jpg",
+      "./assets/images/CorporateShop/2.jpg",
+      "./assets/images/CorporateShop/3.jpg",
+      "./assets/images/CorporateShop/4.jpg",
+      "./assets/images/CorporateShop/5.jpg",
+      "./assets/images/CorporateShop/6.jpg",
+      "./assets/images/CorporateShop/7.jpg",
+      "./assets/images/CorporateShop/8.jpg",
+      "./assets/images/CorporateShop/9.jpg",
     ],
   },
   {
     id: 3,
-    title: "Vehicle Signage",
+    title: "Vehicle & Food Truck Signage",
     description: "Vehicle signage helps in brand recognition, essentially making it free advertisement. We utilise top-notch quality types of vinyl like Avery, Arlon, and 3M as well as cover the installation of vehicle graphics, one-way vision windows, vehicle lettering signs, etc. to help give your vehicles a professional finish.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/Vehicle/1.jpg",
+      "./assets/images/Vehicle/2.jpg",
+      "./assets/images/Vehicle/3.jpg",
+      "./assets/images/Vehicle/4.jpg",
+      "./assets/images/Vehicle/5.jpg",
+      "./assets/images/Vehicle/6.jpg",
+      "./assets/images/Vehicle/7.jpg",
     ],
   },
   {
@@ -53,9 +69,12 @@ const data = [
     title: "Large Format Printing",
     description: "At Engrave Write we offer a diverse set of Large Format Printing services that suit our clientele. We print on various types of vinyl and all sizes, leaving no stone unturned and our services are tailored for a budget, purpose, and style of every kind. We produce high-quality large print formats that cover large areas both inside and out.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/LargeFormat/1.jpg",
+      "./assets/images/LargeFormat/2.jpg",
+      "./assets/images/LargeFormat/3.jpg",
+      "./assets/images/LargeFormat/4.jpg",
+      "./assets/images/LargeFormat/5.jpg",
+      "./assets/images/LargeFormat/6.jpg",
     ],
   },
   {
@@ -63,9 +82,14 @@ const data = [
     title: "3D-Illuminated Signage",
     description: "3D signage helps in capturing the attention of your clientele, all of which can make your brand a standout. We specialise in providing Face-lit letters, Edge-lit letters, and Back-Lit (Halo lit) letters. Furthermore, we take care of the entire process from design to installation.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/3DIlluminated/1.jpg",
+      "./assets/images/3DIlluminated/2.jpg",
+      "./assets/images/3DIlluminated/3.jpg",
+      "./assets/images/3DIlluminated/4.jpg",
+      "./assets/images/3DIlluminated/5.jpg",
+      "./assets/images/3DIlluminated/6.jpg",
+      "./assets/images/3DIlluminated/7.jpg",
+      "./assets/images/3DIlluminated/8.jpg",
     ],
   },
   {
@@ -73,9 +97,12 @@ const data = [
     title: "3D Non-Illuminated Signs",
     description: "We’re experts in crafting cost-effective and durable 3D signage that gives your brand that extra “pop”. Our team is skilled in utilizing various materials for colours and thickness like composite panel, acrylic sheets, brass, aluminum, PVC, stainless steel and use the latest in CNC & laser cutting technology to craft 3D letters that are painted with your preferred colours.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/3DNonIlluminated/1.jpg",
+      "./assets/images/3DNonIlluminated/2.jpg",
+      "./assets/images/3DNonIlluminated/3.jpg",
+      "./assets/images/3DNonIlluminated/4.jpg",
+      "./assets/images/3DNonIlluminated/5.jpg",
+      "./assets/images/3DNonIlluminated/6.jpg",
     ],
   },
   {
@@ -93,9 +120,8 @@ const data = [
     title: "Safety & Warning Kit Decals",
     description: "Our team covers the production of high-end safety stickers featured for excavation sites and heavy vehicles. Some of the decals and stickers crafted by us include COVID-19 stickers, reflective signs, and traffic management-issued corflute signs. We’re also experts in creating door, room, and wayfinding signs.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/Safety&WarningKit/1.jpg",
+      "./assets/images/Safety&WarningKit/2.jpg",
     ],
   },
   {
@@ -103,9 +129,8 @@ const data = [
     title: "CNC Routing",
     description: "We’re equipped with state-of-the-art CNC machines and technology to produce precise, high-quality top-of-the-line and eye-catching signage solutions.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/CNC/1.jpg",
+      "./assets/images/CNC/2.jpg",
     ],
   },
   {
@@ -113,9 +138,8 @@ const data = [
     title: "Laser Cutting and Engraving",
     description: "We offer the latest laser cutting and engraving services that can help you with CNC cutting, fabrication, to turn materials like stainless steel, brass, and acrylic into components you need.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/LaserCutting/1.jpg",
+      "./assets/images/LaserCutting/2.jpg",
     ],
   },
   {
@@ -133,9 +157,9 @@ const data = [
     title: "General Signage",
     description: "We offer nothing but the best for general signage. Be it billboard signs, corflute signs, PVC banners, synthetic posters, Pull up banners, or A-frames we’ve got you covered. Share with us your ideas and we’ll work round the clock to make your vision a reality.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/General/1.jpg",
+      "./assets/images/General/2.jpg",
+      "./assets/images/General/3.jpg",
     ],
   }
 ];

@@ -38,7 +38,7 @@ const Signage = () => {
               textAlign: "center",
             }}
           >
-            Signage Solution
+            Signage and Printing Solutions
           </Typography>
 
           <Stack

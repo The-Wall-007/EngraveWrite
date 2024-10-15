@@ -186,7 +186,7 @@ const ServicesSection = () => {
                     alignItems: "center",
                   }}
                 >
-                  <Button size="small">
+                  <Button size="small" href="/About" >
                     <Typography
                       sx={{
                         fontSize: "12px",
@@ -194,6 +194,7 @@ const ServicesSection = () => {
                         fontFamily: "rubik",
                         color: "#00007D",
                         marginRight: 1,
+                        
                       }}
                     >
                       Learn More

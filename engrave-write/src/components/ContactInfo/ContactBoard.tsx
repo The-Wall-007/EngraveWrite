@@ -141,7 +141,7 @@ const ContactBoard = () => {
                 fontFamily: "rubik",
               }}
             >
-              Age
+              Services
             </InputLabel>
             <Select
               labelId="demo-simple-select-standard-label"
@@ -165,9 +165,9 @@ const ContactBoard = () => {
                   color: "#2C2C2C",
                   fontFamily: "rubik",
                 }}
-                value=""
+                value={10}
               >
-                <em>None</em>
+                <em>Signage Solution</em>
               </MenuItem>
 
               <MenuItem
@@ -179,7 +179,7 @@ const ContactBoard = () => {
                 }}
                 value={10}
               >
-                Ten
+                IT Solution
               </MenuItem>
 
               <MenuItem
@@ -191,7 +191,7 @@ const ContactBoard = () => {
                 }}
                 value={20}
               >
-                Twenty
+                Digital Marketing
               </MenuItem>
 
               <MenuItem
@@ -203,7 +203,7 @@ const ContactBoard = () => {
                 }}
                 value={30}
               >
-                Thirty
+                Signage, Printing and IT Solution
               </MenuItem>
             </Select>
           </FormControl>

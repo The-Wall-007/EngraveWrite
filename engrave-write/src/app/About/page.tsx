@@ -1,9 +1,12 @@
 import React from "react";
+import WelcomeSection from "@/components/Home/WelcomeSection";
+import PromiseSection from "@/components/Home/PromiseSection";
 import { Stack, Typography } from "@mui/material";
 
 const About = () => {
   return (
     <React.Fragment>
+
       <Stack
         sx={{
           backgroundColor: "#EBEBF5",
@@ -37,7 +40,7 @@ const About = () => {
           >
             About Us
           </Typography>
-
+            
           <Stack
             sx={{
               marginTop: 2.5,
@@ -49,6 +52,11 @@ const About = () => {
           />
         </Stack>
       </Stack>
+
+      
+  <WelcomeSection />
+  <PromiseSection />
+      
     </React.Fragment>
   );
 };

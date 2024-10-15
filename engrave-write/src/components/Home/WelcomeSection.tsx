@@ -26,8 +26,9 @@ const WelcomeSection = () => {
           }}
         >
           <img
-            src="https://s3-alpha-sig.figma.com/img/2f58/4c8b/c7a08a47151504196fca59ff3cb197b6?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SyFiulXNMDS~~eR6qKHKEfIvUxh6qAaeC3ZPF-GERR1Dc5Dyqrg3lb7E~5edbMM4ggfzAOo49Kxz8k9hXV4Qmbj-73QsIi-Gu7xSVaLv9bQDteYivcW~Q7~EAM72mV3B0HZEiUY5qsK-SmNEZ145LgphZxo7nkYuea9VRqCRdkFgFrWwTcd~lkF6Bq5nV4HlSS507RK2XCA6ITFBEnI3V86zAA4c9u5syzlBoqmeF~T5LHDUZEJQ5s5GG8W3avoecgTSTe9y11yNCs96HiradqDCGwdhT26fJYeP1~29KepeEMjiuvBbIBfJ8zzTPMbHzPAX9p7dIYfWzfgZRL~TUw__"
+            src="./assets/images/banner.svg"
             alt="Example Image"
+            style={{ height: '458px', width: '800px' }}
           />
         </Grid>
 
@@ -48,7 +49,7 @@ const WelcomeSection = () => {
               fontFamily: "rubik",
             }}
           >
-            Welcome to Engrave write
+            Welcome to Engrave Write
           </Typography>
 
           <Stack

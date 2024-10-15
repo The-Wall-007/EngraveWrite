@@ -36,7 +36,7 @@ const ItServices = () => {
               textAlign: "center",
             }}
           >
-            Digital Marketing
+            IT Development and Marketing
           </Typography>
 
           <Stack

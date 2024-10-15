@@ -18,33 +18,33 @@ import ContactBoard from "../ContactInfo/ContactBoard";
 const faqs = [
   {
     id: 1,
-    question: "What is your return policy?",
+    question: "Why engrave write is the best Signage, Printing and IT solutions in Australia?",
     answer:
-      "We accept returns within 30 days of purchase. The item must be unused and in its original packaging.",
+      "Renowned for its dedication to quality and innovation, EngraveWrite is Australia's top supplier of IT,printing, and signage solutions. To make long-lasting and aesthetically pleasing products that are customized to your unique demands, we use high-quality materials and cutting-edge technology. We provide complete support from design to installation to continuing maintenance, all handled by our highly skilled staff. While our customer-centric strategy builds strong relationships and ensures satisfaction, our commitment to sustainable methods guarantees that we operate ethically. For dependable, superior solutions that boost your company, go with EngraveWrite..",
   },
   {
     id: 2,
-    question: "How long does shipping take?",
+    question: "Which kinds of signage, Printing and IT solutions are available at EngraveWrite?",
     answer:
-      "Shipping usually takes 5-7 business days, depending on your location. Expedited shipping is also available.",
+      "EngraveWrite offers a wide range of signage and printing solutions, including excavator and construction signage, corporate and shop signs, vehicle graphics, 3D illuminated and non-illuminated options, as well as safety and warning signs. We also provide CNC routing, laser cutting, and engraving services. For IT solutions, our expertise encompasses web design and development, mobile applications, software solutions, e-commerce development, and digital marketing, all aimed at enhancing your business’s visibility and efficiency.",
   },
   {
     id: 3,
-    question: "Do you offer customer support?",
+    question: "Do you offer installation and ongoing support?",
     answer:
-      "Yes, we offer 24/7 customer support via email, phone, and live chat.",
+      "Yes, we handle installation for all our signage solutions and provide ongoing support, including maintenance and troubleshooting.",
   },
   {
     id: 4,
-    question: "Can I track my order?",
+    question: "How do I get a quote for services?",
     answer:
-      "Yes, once your order is shipped, you will receive a tracking number via email to track your package.",
+      "You can request a personalized quote through our website’s contact form, and we'll respond promptly to discuss your specific requirements.",
   },
   {
     id: 5,
-    question: "What payment methods do you accept?",
+    question: "How can IT solutions, signage, and printing improve my business?",
     answer:
-      "We accept major credit cards, PayPal, and other secure payment options.",
+      "Our IT solutions enhance efficiency by streamlining operations, improving communication, and ensuring data security. Additionally, our diverse signage options, such as digital displays and custom signs, can boost visibility and guide customers effectively.",
   },
 ];
 
