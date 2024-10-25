@@ -16,8 +16,13 @@ import {
   useTheme,
   Stack,
   Box,
+  Menu,
+  MenuItem,
+  Collapse,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import ExpandLess from "@mui/icons-material/ExpandLess";
+import ExpandMore from "@mui/icons-material/ExpandMore";
 import Link from "next/link";
 
 const Header: React.FC = () => {
@@ -26,9 +31,37 @@ const Header: React.FC = () => {
 
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const [submenu, setSubmenu] = useState<null | string>(null); // To track which submenu is open
+  const [drawerSubmenuOpen, setDrawerSubmenuOpen] = useState<{
+    [key: string]: boolean;
+  }>({
+    ITServices: false,
+    Signage: false,
+  });
 
   const toggleDrawer = (open: boolean) => () => {
     setDrawerOpen(open);
+  };
+
+  const handleMenuOpen = (
+    event: React.MouseEvent<HTMLElement>,
+    menu: string
+  ) => {
+    setAnchorEl(event.currentTarget);
+    setSubmenu(menu);
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+    setSubmenu(null);
+  };
+
+  const handleDrawerSubmenuToggle = (menu: string) => {
+    setDrawerSubmenuOpen((prevState) => ({
+      ...prevState,
+      [menu]: !prevState[menu],
+    }));
   };
 
   const routes = [
@@ -38,6 +71,16 @@ const Header: React.FC = () => {
     { label: "Signage", path: "/Signage" },
     { label: "Results", path: "/Results" },
     { label: "Contact", path: "/Contact" },
+  ];
+
+  const itServicesSubmenu = [
+    { label: "Web Design", path: "/ItServices/WebDesign" },
+    { label: "Web Development", path: "/ItServices/WebDevelopment" },
+  ];
+
+  const signageSubmenu = [
+    { label: "Digital Printing", path: "/Signage/DigitalPrinting" },
+    { label: "Laser Cutting", path: "/Signage/LaserCuttingEngraving" },
   ];
 
   return (
@@ -106,28 +149,141 @@ const Header: React.FC = () => {
                   onOpen={toggleDrawer(true)}
                 >
                   <List>
-                    {routes.map((route, index) => (
-                      <ListItem
-                        key={route.label}
-                        component={Link}
-                        href={route.path}
-                      >
-                        <ListItemText
-                          primary={route.label}
-                          sx={{
-                            fontSize: "20px",
-                            fontWeight: "400",
-                            lineHeight: "30px",
-                            fontFamily: "Rubik",
-                            textTransform: "capitalize",
-                            color: activeTab === index ? "#ff6cb2" : "#2C2C2C", // Change color based on active tab
-                            "&.Mui-selected": {
-                              color: "#ff6cb2", // Selected tab color
-                            },
-                          }}
-                        />
-                      </ListItem>
-                    ))}
+                    {routes.map((route) => {
+                      if (route.label === "IT Services") {
+                        return (
+                          <React.Fragment key={route.label}>
+                            {/* @ts-ignore */}
+                            <ListItem
+                              button // Make it a button to prevent default link behavior
+                              onClick={() =>
+                                handleDrawerSubmenuToggle("ITServices")
+                              }
+                            >
+                              <ListItemText
+                                primary={route.label}
+                                sx={{
+                                  fontSize: "20px",
+                                  fontWeight: "400",
+                                  lineHeight: "30px",
+                                  fontFamily: "Rubik",
+                                  textTransform: "capitalize",
+                                  color: "#2C2C2C",
+                                }}
+                              />
+                              {drawerSubmenuOpen.ITServices ? (
+                                <ExpandLess />
+                              ) : (
+                                <ExpandMore />
+                              )}
+                            </ListItem>
+                            <Collapse
+                              in={drawerSubmenuOpen.ITServices}
+                              timeout="auto"
+                              unmountOnExit
+                            >
+                              <List component="div" disablePadding>
+                                {itServicesSubmenu.map((item) => (
+                                  <ListItem
+                                    key={item.label}
+                                    component={Link}
+                                    href={item.path}
+                                    sx={{
+                                      padding: 1,
+                                      paddingLeft: 2,
+                                      width: "100%",
+                                      fontSize: 18,
+                                      backgroundColor: "#fff", // Change background color
+                                      "&:hover": {
+                                        backgroundColor: "rgba(255,59,153, .2)", // Change background on hover
+                                      },
+                                    }}
+                                  >
+                                    <ListItemText primary={item.label} />
+                                  </ListItem>
+                                ))}
+                              </List>
+                            </Collapse>
+                          </React.Fragment>
+                        );
+                      } else if (route.label === "Signage") {
+                        return (
+                          <React.Fragment key={route.label}>
+                            {/* @ts-ignore */}
+                            <ListItem
+                              button // Make it a button to prevent default link behavior
+                              onClick={() =>
+                                handleDrawerSubmenuToggle("Signage")
+                              }
+                            >
+                              <ListItemText
+                                primary={route.label}
+                                sx={{
+                                  fontSize: "20px",
+                                  fontWeight: "400",
+                                  lineHeight: "30px",
+                                  fontFamily: "Rubik",
+                                  textTransform: "capitalize",
+                                  color: "#2C2C2C",
+                                }}
+                              />
+                              {drawerSubmenuOpen.Signage ? (
+                                <ExpandLess />
+                              ) : (
+                                <ExpandMore />
+                              )}
+                            </ListItem>
+                            <Collapse
+                              in={drawerSubmenuOpen.Signage}
+                              timeout="auto"
+                              unmountOnExit
+                            >
+                              <List component="div" disablePadding>
+                                {signageSubmenu.map((item) => (
+                                  <ListItem
+                                    key={item.label}
+                                    component={Link}
+                                    href={item.path}
+                                    sx={{
+                                      padding: 1,
+                                      paddingLeft: 2,
+                                      width: "100%",
+                                      fontSize: 18,
+                                      backgroundColor: "#fff", // Change background color
+                                      "&:hover": {
+                                        backgroundColor: "rgba(255,59,153, .2)", // Change background on hover
+                                      },
+                                    }}
+                                  >
+                                    <ListItemText primary={item.label} />
+                                  </ListItem>
+                                ))}
+                              </List>
+                            </Collapse>
+                          </React.Fragment>
+                        );
+                      } else {
+                        return (
+                          <ListItem
+                            key={route.label}
+                            component={Link}
+                            href={route.path}
+                          >
+                            <ListItemText
+                              primary={route.label}
+                              sx={{
+                                fontSize: "20px",
+                                fontWeight: "400",
+                                lineHeight: "30px",
+                                fontFamily: "Rubik",
+                                textTransform: "capitalize",
+                                color: "#2C2C2C",
+                              }}
+                            />
+                          </ListItem>
+                        );
+                      }
+                    })}
                   </List>
                 </SwipeableDrawer>
               </Stack>
@@ -147,8 +303,19 @@ const Header: React.FC = () => {
                   <Tab
                     key={route.label}
                     label={route.label}
-                    component={Link}
+                    component={
+                      route.label === "IT Services" || route.label === "Signage"
+                        ? "div"
+                        : Link
+                    }
                     href={route.path}
+                    onClick={
+                      route.label === "IT Services"
+                        ? (event) => handleMenuOpen(event, "IT Services")
+                        : route.label === "Signage"
+                        ? (event) => handleMenuOpen(event, "Signage")
+                        : undefined
+                    }
                     sx={{
                       fontSize: "20px",
                       fontWeight: "400",
@@ -165,6 +332,62 @@ const Header: React.FC = () => {
                     }}
                   />
                 ))}
+
+                {/* Submenu for IT Services */}
+                <Menu
+                  anchorEl={anchorEl}
+                  open={submenu === "IT Services"}
+                  onClose={handleMenuClose}
+                  sx={{ borderRadius: 4 }}
+                >
+                  {itServicesSubmenu.map((item) => (
+                    <MenuItem
+                      key={item.label}
+                      component={Link}
+                      href={item.path}
+                      onClick={handleMenuClose}
+                      sx={{
+                        padding: 2,
+                        width: "100%",
+                        fontSize: 18,
+                        backgroundColor: "#fff", // Change background color
+                        "&:hover": {
+                          backgroundColor: "rgba(255,59,153, .2)", // Change background on hover
+                        },
+                      }}
+                    >
+                      {item.label}
+                    </MenuItem>
+                  ))}
+                </Menu>
+
+                {/* Submenu for Signage */}
+                <Menu
+                  anchorEl={anchorEl}
+                  open={submenu === "Signage"}
+                  onClose={handleMenuClose}
+                  sx={{ borderRadius: 4 }}
+                >
+                  {signageSubmenu.map((item) => (
+                    <MenuItem
+                      key={item.label}
+                      component={Link}
+                      href={item.path}
+                      onClick={handleMenuClose}
+                      sx={{
+                        padding: 2,
+                        width: "100%",
+                        fontSize: 18,
+                        backgroundColor: "#fff", // Change background color
+                        "&:hover": {
+                          backgroundColor: "rgba(255,59,153, .2)", // Change background on hover
+                        },
+                      }}
+                    >
+                      {item.label}
+                    </MenuItem>
+                  ))}
+                </Menu>
               </Tabs>
             )}
           </Stack>

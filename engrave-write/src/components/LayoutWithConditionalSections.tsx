@@ -11,12 +11,13 @@ const LayoutWithConditionalSections = ({
 }) => {
   const pathname = usePathname(); // Client-side logic
   const isContactPage = pathname === "/Contact";
+  const isResultsPage = pathname === "/Results";
 
   return (
     <>
       {children}
       {/* Conditionally render components based on pathname */}
-      {!isContactPage && (
+      {!isContactPage && !isResultsPage && (
         <>
           <ClientReview />
           <QuestionsSection />

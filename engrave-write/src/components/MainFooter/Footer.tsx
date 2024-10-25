@@ -3,10 +3,15 @@ import Grid from "@mui/material/Grid2";
 
 interface StyledTextProps extends TypographyProps {
   children: React.ReactNode;
+  href?: string; // Optional href prop for links
 }
 
-const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
-  return (
+const StyledText: React.FC<StyledTextProps> = ({
+  children,
+  href,
+  ...props
+}) => {
+  const content = (
     <Typography
       sx={{
         fontSize: "18px",
@@ -20,6 +25,14 @@ const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
     >
       {children}
     </Typography>
+  );
+
+  return href ? (
+    <a href={href} style={{ textDecoration: "none" }}>
+      {content}
+    </a>
+  ) : (
+    content
   );
 };
 
@@ -130,13 +143,21 @@ const Footer = () => {
             >
               Quick links
             </Typography>
-            <StyledText>About us</StyledText>
-            <StyledText>Safety & Warning Kit Decals</StyledText>
-            <StyledText>CNC Routing</StyledText>
-            <StyledText>Laser Cutting and Engraving</StyledText>
-            <StyledText>Digital Printing</StyledText>
-            <StyledText>General Signage</StyledText>
-            <StyledText>Case Study</StyledText>
+            <StyledText href="/about-us">About us</StyledText>
+            <StyledText href="/safety-warning-kit-decal">
+              Safety & Warning Kit Decals
+            </StyledText>
+            <StyledText href="/cnc-routing">CNC Routing</StyledText>
+            <StyledText href="/Signage/LaserCuttingEngraving">
+              Laser Cutting and Engraving
+            </StyledText>
+            <StyledText href="/Signage/DigitalPrinting">
+              Digital Printing
+            </StyledText>
+            <StyledText href="/Signage/LaserCuttingEngraving">
+              General Signage
+            </StyledText>
+            {/* <StyledText href="/case-study">Case Study</StyledText> */}
           </Grid>
           <Grid
             sx={{
@@ -158,13 +179,17 @@ const Footer = () => {
             >
               Our Services
             </Typography>
-            <StyledText>Web Design</StyledText>
-            <StyledText>Web Development</StyledText>
-            <StyledText>Signage Solution</StyledText>
-            <StyledText>Graphics Design</StyledText>
-            <StyledText>Software Solution</StyledText>
-            <StyledText>Digital Marketing</StyledText>
-            <StyledText>E-Commerce Development</StyledText>
+            <StyledText href="/ItServices/WebDesign">Web Design</StyledText>
+            <StyledText href="/ItServices/WebDevelopment">
+              Web Development
+            </StyledText>
+            <StyledText href="/signage-solution">Signage Solution</StyledText>
+            <StyledText href="/graphics-design">Graphics Design</StyledText>
+            <StyledText href="/software-solution">Software Solution</StyledText>
+            <StyledText href="/digital-marketing">Digital Marketing</StyledText>
+            <StyledText href="/e-commerce-development">
+              E-Commerce Development
+            </StyledText>
           </Grid>
           <Grid
             sx={{
