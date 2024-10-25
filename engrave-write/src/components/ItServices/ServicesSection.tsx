@@ -23,9 +23,13 @@ const data = [
     description:
       "At Engrave Write, our highest priority is designing, creating and producing high-visibility, informative, and eye-catching signs, whether it be for an Excavator or Construction Project.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
     ],
   },
   {
@@ -33,20 +37,28 @@ const data = [
     title: "E-Commerce Development",
     description: "Our team skillfully manufactures high-quality 3D signs, reception signs, graphic prints, and window prints, all of which are tailored to give your brand a big boost and help it stand out from the competition",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-    ],
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
+],
   },
   {
     id: 3,
     title: "SEO Services",
     description: "Vehicle signage helps in brand recognition, essentially making it free advertisement. We utilise top-notch quality types of vinyl like Avery, Arlon, and 3M as well as cover the installation of vehicle graphics, one-way vision windows, vehicle lettering signs, etc. to help give your vehicles a professional finish.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
+
     ],
   },
   {
@@ -54,9 +66,13 @@ const data = [
     title: "Software and Mobile Applications Development",
     description: "At Engrave Write we offer a diverse set of Large Format Printing services that suit our clientele. We print on various types of vinyl and all sizes, leaving no stone unturned and our services are tailored for a budget, purpose, and style of every kind. We produce high-quality large print formats that cover large areas both inside and out.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
     ],
   },
 
@@ -65,9 +81,14 @@ const data = [
     title: "Social Media Marketing",
     description: "At Engrave Write we offer a diverse set of Large Format Printing services that suit our clientele. We print on various types of vinyl and all sizes, leaving no stone unturned and our services are tailored for a budget, purpose, and style of every kind. We produce high-quality large print formats that cover large areas both inside and out.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
+
     ],
   },
 
@@ -76,10 +97,15 @@ const data = [
     title: "ERP/CRM Intigration",
     description: "At Engrave Write we offer a diverse set of Large Format Printing services that suit our clientele. We print on various types of vinyl and all sizes, leaving no stone unturned and our services are tailored for a budget, purpose, and style of every kind. We produce high-quality large print formats that cover large areas both inside and out.",
     imagesURI: [
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-      "https://picsum.photos/200/300",
-    ],
+      "./assets/images/IT/AuTurff.png",
+      "./assets/images/IT/Auzzie.png",
+      "./assets/images/IT/Buildbourne.png",
+      "./assets/images/IT/Heating.png",
+      "./assets/images/IT/Oreve.png",
+      "./assets/images/IT/Platinum.png",
+      "./assets/images/IT/Turff.png",
+
+       ],
   },
  
 ];
