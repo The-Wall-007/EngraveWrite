@@ -148,12 +148,16 @@ const Footer = () => {
               Safety & Warning Kit Decals
             </StyledText>
             <StyledText href="/cnc-routing">CNC Routing</StyledText>
-            <StyledText href="/laser-cutting-engraving">
+            <StyledText href="/Signage/LaserCuttingEngraving">
               Laser Cutting and Engraving
             </StyledText>
-            <StyledText href="/digital-printing">Digital Printing</StyledText>
-            <StyledText href="/general-signage">General Signage</StyledText>
-            <StyledText href="/case-study">Case Study</StyledText>
+            <StyledText href="/Signage/DigitalPrinting">
+              Digital Printing
+            </StyledText>
+            <StyledText href="/Signage/LaserCuttingEngraving">
+              General Signage
+            </StyledText>
+            {/* <StyledText href="/case-study">Case Study</StyledText> */}
           </Grid>
           <Grid
             sx={{
