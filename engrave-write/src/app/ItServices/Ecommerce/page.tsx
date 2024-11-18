@@ -7,16 +7,27 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
+ 
 const data = [
   {
-    id: 10,
-    title: "Laser Cutting and Engraving",
-    description: "We offer the latest laser cutting and engraving services that can help you with CNC cutting, fabrication, to turn materials like stainless steel, brass, and acrylic into components you need.",
+    id: 1,
+    title: "E-Commerce",
+    description:
+      "Engrave Write specializes in E-commerce solutions that drive sales and enhance customer engagement. We provide end-to-end setup and optimization, from product listings to secure payment integration, making online shopping a breeze for your customers and seamless for your team.",
     imagesURI: [
-      "./assets/images/LaserCutting/1.jpg",
-      "./assets/images/LaserCutting/2.jpg",
+      "./assets/images/Excavator&ConstructionSignage/1.jpg",
+      "./assets/images/Excavator&ConstructionSignage/2.jpg",
+      "./assets/images/Excavator&ConstructionSignage/3.jpg",
+      "./assets/images/Excavator&ConstructionSignage/4.jpg",
+      "./assets/images/Excavator&ConstructionSignage/5.jpg",
+      "./assets/images/Excavator&ConstructionSignage/6.jpg",
+      "./assets/images/Excavator&ConstructionSignage/7.jpg",
+      "./assets/images/Excavator&ConstructionSignage/8.jpg",
+      "./assets/images/Excavator&ConstructionSignage/9.jpg",
+      "./assets/images/Excavator&ConstructionSignage/10.jpg",
     ],
-  }
+  },
+  
 
 ];
 
@@ -28,8 +39,8 @@ const divStyle = {
   height: "400px",
 };
 
-const ExcavatorConstruction = () => {
-  return <div>
+const Ecommerce = () => {
+  return<div>
   <Stack
 sx={{
   backgroundColor: "#EBEBF5",
@@ -61,7 +72,7 @@ sx={{
       textAlign: "center",
     }}
   >
-    Laser Cutting and Engraving
+    E-Commerce Development
   </Typography>
 
   <Stack
@@ -110,9 +121,11 @@ paddingTop:{
 }
 }}
 >
-Engrave Write offers expert laser cutting and engraving services on Traffolyte plastic, ideal for creating durable, high-contrast labels,
-tags, and signage. Known for its strength and readability, Traffolyte plastic is perfect for industrial and commercial applications.
-Our laser engraving provides detailed, long-lasting markings for customized and safety-compliant results.
+Transform your business with Engrave Write’s E-commerce solutions designed to maximize online sales and simplify operations.
+We provide a comprehensive suite of services, including product catalog setup, shopping cart design, payment gateway integration,
+and inventory management. Our solutions are tailored to create a smooth, intuitive shopping experience that converts visitors into customers.
+By integrating SEO and analytics, we make it easy for potential buyers to find your products while tracking their behaviors and preferences.
+From setup to support, we make E-commerce effortless, allowing you to focus on growing your business while we handle the technical aspects.
 </Typography>
 
 
@@ -346,64 +359,6 @@ gap: 8,
 ))}
 
 
-<Typography
-sx={{
-fontSize: "18px",
-fontWeight: "300",
-color: "#2C2C2C",
-lineHeight: "25px",
-marginTop: "20px",
-fontFamily: "rubik",
-textAlign: "center",
-paddingLeft: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingRight: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingTop:{
-  xs: 4,
-  sm: 6,
-  md: 8,
-  lg: 12,
-}
-}}
->
-
-Consultation & Planning: 
-We begin with a thorough consultation to understand your business goals, target audience, and unique requirements.
-This foundational step allows us to craft a tailored strategy that aligns with your vision.
-
-<br /><br /><br />
-User-Centric Design: 
-Our design philosophy revolves around the user experience (UX). We focus on creating intuitive navigation, engaging layouts,
-and responsive designs that adapt seamlessly to any device, ensuring a pleasant browsing experience for your visitors.
-
-<br /><br /><br />
-Custom Development: 
-We leverage the latest technologies and frameworks to build robust websites tailored to your needs. Whether you require a simple informational
-site or a complex web application, our skilled developers ensure high performance, security, and scalability.
-
-<br /><br /><br />
-Content Management Systems (CMS):
-We offer integration with popular CMS platforms like WordPress, Joomla, or custom solutions, empowering you to
-manage your content easily without requiring technical expertise.
-
-<br /><br /><br />
-Ongoing Support & Maintenance
-Our relationship doesn’t end at launch. We provide ongoing support and maintenance services to ensure you
-website remains up-to-date, secure, and functioning smoothly as your business evolves.
-
-
-</Typography>
-
-
 {data.slice(2).map((item) => (
 <Grid
   key={item.id}
@@ -623,4 +578,4 @@ website remains up-to-date, secure, and functioning smoothly as your business ev
 </div>;
 };
 
-export default ExcavatorConstruction;
+export default Ecommerce;

@@ -8,14 +8,15 @@ import Select from "@mui/material/Select";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 const services = [
-  { id: 1, title: "Web Design" },
-  { id: 2, title: "Web Development" },
-  { id: 3, title: "Signage Solution" },
-  { id: 4, title: "Graphics Design" },
-  { id: 5, title: "E-Commerce Development" },
-  { id: 6, title: "Digital Marketing" },
-  { id: 7, title: "Software Solution" },
-  { id: 8, title: "CRM Integration" },
+  { id: 1, title: "Web Design & Development" },
+  { id: 2, title: "Software Development" },
+  { id: 3, title: "Mobile Application Development" },
+  { id: 4, title: "ERP/ CRM & Social Media Intigration" },
+  { id: 5, title: "Signage Solutions" },
+  { id: 6, title: "Excavator Signage" },
+  { id: 7, title: "Corporate Building Signage" },
+  { id: 8, title: "CNC Routing & Laser Cutting & Engraving" },
+  { id: 9, title: "3D-Illuminated and Non Illuminated Sign" },
 ];
 
 const ContactBoard = () => {

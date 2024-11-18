@@ -1,6 +1,7 @@
 import React from "react";
 import WelcomeSection from "@/components/Home/WelcomeSection";
 import PromiseSection from "@/components/Home/PromiseSection";
+import ServicesSection from "@/components/Home/ServicesSection";
 import { Stack, Typography } from "@mui/material";
 
 const About = () => {
@@ -56,6 +57,7 @@ const About = () => {
       
   <WelcomeSection />
   <PromiseSection />
+  <ServicesSection />
       
     </React.Fragment>
   );

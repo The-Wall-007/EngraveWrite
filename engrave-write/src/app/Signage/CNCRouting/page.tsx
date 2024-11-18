@@ -9,15 +9,14 @@ import "react-slideshow-image/dist/styles.css";
 
 const data = [
   {
-    id: 10,
-    title: "Laser Cutting and Engraving",
-    description: "We offer the latest laser cutting and engraving services that can help you with CNC cutting, fabrication, to turn materials like stainless steel, brass, and acrylic into components you need.",
+    id: 9,
+    title: "CNC Routing",
+    description: "We’re equipped with state-of-the-art CNC machines and technology to produce precise, high-quality top-of-the-line and eye-catching signage solutions.",
     imagesURI: [
-      "./assets/images/LaserCutting/1.jpg",
-      "./assets/images/LaserCutting/2.jpg",
+      "./assets/images/CNC/1.jpg",
+      "./assets/images/CNC/2.jpg",
     ],
   }
-
 ];
 
 const divStyle = {
@@ -61,7 +60,7 @@ sx={{
       textAlign: "center",
     }}
   >
-    Laser Cutting and Engraving
+    CNC Routing
   </Typography>
 
   <Stack
@@ -110,9 +109,8 @@ paddingTop:{
 }
 }}
 >
-Engrave Write offers expert laser cutting and engraving services on Traffolyte plastic, ideal for creating durable, high-contrast labels,
-tags, and signage. Known for its strength and readability, Traffolyte plastic is perfect for industrial and commercial applications.
-Our laser engraving provides detailed, long-lasting markings for customized and safety-compliant results.
+Our CNC routing services enable precision-cut designs on various materials, perfect for creating custom signage, decorative panels, and intricate displays. 
+With advanced technology, Engrave Write delivers clean, detailed cuts to bring your design ideas to life, adding uniqueness to your space or branding.
 </Typography>
 
 
@@ -344,64 +342,6 @@ gap: 8,
   )}
 </Grid>
 ))}
-
-
-<Typography
-sx={{
-fontSize: "18px",
-fontWeight: "300",
-color: "#2C2C2C",
-lineHeight: "25px",
-marginTop: "20px",
-fontFamily: "rubik",
-textAlign: "center",
-paddingLeft: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingRight: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingTop:{
-  xs: 4,
-  sm: 6,
-  md: 8,
-  lg: 12,
-}
-}}
->
-
-Consultation & Planning: 
-We begin with a thorough consultation to understand your business goals, target audience, and unique requirements.
-This foundational step allows us to craft a tailored strategy that aligns with your vision.
-
-<br /><br /><br />
-User-Centric Design: 
-Our design philosophy revolves around the user experience (UX). We focus on creating intuitive navigation, engaging layouts,
-and responsive designs that adapt seamlessly to any device, ensuring a pleasant browsing experience for your visitors.
-
-<br /><br /><br />
-Custom Development: 
-We leverage the latest technologies and frameworks to build robust websites tailored to your needs. Whether you require a simple informational
-site or a complex web application, our skilled developers ensure high performance, security, and scalability.
-
-<br /><br /><br />
-Content Management Systems (CMS):
-We offer integration with popular CMS platforms like WordPress, Joomla, or custom solutions, empowering you to
-manage your content easily without requiring technical expertise.
-
-<br /><br /><br />
-Ongoing Support & Maintenance
-Our relationship doesn’t end at launch. We provide ongoing support and maintenance services to ensure you
-website remains up-to-date, secure, and functioning smoothly as your business evolves.
-
-
-</Typography>
 
 
 {data.slice(2).map((item) => (

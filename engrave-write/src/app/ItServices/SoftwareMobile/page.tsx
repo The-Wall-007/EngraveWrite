@@ -9,14 +9,23 @@ import "react-slideshow-image/dist/styles.css";
 
 const data = [
   {
-    id: 10,
-    title: "Laser Cutting and Engraving",
-    description: "We offer the latest laser cutting and engraving services that can help you with CNC cutting, fabrication, to turn materials like stainless steel, brass, and acrylic into components you need.",
+    id: 1,
+    title: "Software & Mobile Applications",
+    description:
+      "Our software and mobile application development services bring your ideas to life, offering solutions that are both functional and engaging. Whether you need a mobile app for customer engagement or custom software for internal use, our team delivers products that align with your goals and drive efficiency.",
     imagesURI: [
-      "./assets/images/LaserCutting/1.jpg",
-      "./assets/images/LaserCutting/2.jpg",
+      "./assets/images/Excavator&ConstructionSignage/1.jpg",
+      "./assets/images/Excavator&ConstructionSignage/2.jpg",
+      "./assets/images/Excavator&ConstructionSignage/3.jpg",
+      "./assets/images/Excavator&ConstructionSignage/4.jpg",
+      "./assets/images/Excavator&ConstructionSignage/5.jpg",
+      "./assets/images/Excavator&ConstructionSignage/6.jpg",
+      "./assets/images/Excavator&ConstructionSignage/7.jpg",
+      "./assets/images/Excavator&ConstructionSignage/8.jpg",
+      "./assets/images/Excavator&ConstructionSignage/9.jpg",
+      "./assets/images/Excavator&ConstructionSignage/10.jpg",
     ],
-  }
+  },
 
 ];
 
@@ -28,7 +37,7 @@ const divStyle = {
   height: "400px",
 };
 
-const ExcavatorConstruction = () => {
+const SoftwareMobile = () => {
   return <div>
   <Stack
 sx={{
@@ -61,7 +70,7 @@ sx={{
       textAlign: "center",
     }}
   >
-    Laser Cutting and Engraving
+    Software and Mobile Applications Development
   </Typography>
 
   <Stack
@@ -110,9 +119,11 @@ paddingTop:{
 }
 }}
 >
-Engrave Write offers expert laser cutting and engraving services on Traffolyte plastic, ideal for creating durable, high-contrast labels,
-tags, and signage. Known for its strength and readability, Traffolyte plastic is perfect for industrial and commercial applications.
-Our laser engraving provides detailed, long-lasting markings for customized and safety-compliant results.
+Our software and mobile application development services bring your vision to life with custom solutions tailored to your unique requirements. Engrave Write’s 
+team specializes in both Android and iOS app development, creating intuitive, secure, and feature-rich mobile applications that enhance user engagement. 
+We handle every aspect, from ideation and prototyping to design, development, testing, and launch. For businesses needing specialized software, we create 
+custom systems that streamline operations, increase productivity, and integrate seamlessly with existing tools. Whether you need an app for customer
+interaction or internal software to optimize workflows, we deliver results that drive success.
 </Typography>
 
 
@@ -346,64 +357,6 @@ gap: 8,
 ))}
 
 
-<Typography
-sx={{
-fontSize: "18px",
-fontWeight: "300",
-color: "#2C2C2C",
-lineHeight: "25px",
-marginTop: "20px",
-fontFamily: "rubik",
-textAlign: "center",
-paddingLeft: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingRight: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingTop:{
-  xs: 4,
-  sm: 6,
-  md: 8,
-  lg: 12,
-}
-}}
->
-
-Consultation & Planning: 
-We begin with a thorough consultation to understand your business goals, target audience, and unique requirements.
-This foundational step allows us to craft a tailored strategy that aligns with your vision.
-
-<br /><br /><br />
-User-Centric Design: 
-Our design philosophy revolves around the user experience (UX). We focus on creating intuitive navigation, engaging layouts,
-and responsive designs that adapt seamlessly to any device, ensuring a pleasant browsing experience for your visitors.
-
-<br /><br /><br />
-Custom Development: 
-We leverage the latest technologies and frameworks to build robust websites tailored to your needs. Whether you require a simple informational
-site or a complex web application, our skilled developers ensure high performance, security, and scalability.
-
-<br /><br /><br />
-Content Management Systems (CMS):
-We offer integration with popular CMS platforms like WordPress, Joomla, or custom solutions, empowering you to
-manage your content easily without requiring technical expertise.
-
-<br /><br /><br />
-Ongoing Support & Maintenance
-Our relationship doesn’t end at launch. We provide ongoing support and maintenance services to ensure you
-website remains up-to-date, secure, and functioning smoothly as your business evolves.
-
-
-</Typography>
-
-
 {data.slice(2).map((item) => (
 <Grid
   key={item.id}
@@ -623,4 +576,4 @@ website remains up-to-date, secure, and functioning smoothly as your business ev
 </div>;
 };
 
-export default ExcavatorConstruction;
+export default SoftwareMobile;

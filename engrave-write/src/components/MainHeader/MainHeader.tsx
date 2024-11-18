@@ -69,18 +69,32 @@ const Header: React.FC = () => {
     { label: "About Us", path: "/About" },
     { label: "IT Services", path: "/ItServices" },
     { label: "Signage", path: "/Signage" },
-    { label: "Results", path: "/Results" },
+    { label: "Case Study", path: "/Results" },
     { label: "Contact", path: "/Contact" },
   ];
 
   const itServicesSubmenu = [
-    { label: "Web Design", path: "/ItServices/WebDesign" },
-    { label: "Web Development", path: "/ItServices/WebDevelopment" },
+    { label: "IT Solution", path: "/ItServices/" },
+    { label: "Web Design & Development", path: "/ItServices/WebDesignDevelopment" },
+    { label: "E-Commerce Development", path: "/ItServices/Ecommerce" },
+    { label: "SEO Services", path: "/ItServices/Seo" },
+    { label: "Software & Mobile Applications Development", path: "/ItServices/SoftwareMobile" },
+    { label: "Social Media Marketing", path: "/ItServices/SocialMedia" },
+    { label: "ERP/CRM Intigration", path: "/ItServices/ERP" },
   ];
 
   const signageSubmenu = [
+    { label: "Signage Solutions", path: "/Signage" },
+    { label: "Excavator & Construction Signage", path: "/Signage/ExcavatorConstruction" },
+    { label: "Corporate/Shop & Building Signage", path: "/Signage/CorporateShopBuilding" },
+    { label: "Vehicle & Food Truck Signage", path: "/Signage/VehicleFoodTruck" },
+    { label: "Large Format Printing", path: "/Signage/LargeFormatPrinting" },
+    { label: "3D-Illuminated Signage", path: "/Signage/3DIlluminated" },
+    { label: "3D Non-Illuminated Signs", path: "/Signage/3DNonIlluminated" },
+    { label: "Safety & Warning Kit Decals", path: "/Signage/SafetyWarning" },
+    { label: "CNC Routing", path: "/Signage/CNCRouting" },
+    { label: "Laser Cutting and Engraving", path: "/Signage/LaserCuttingEngraving" },
     { label: "Digital Printing", path: "/Signage/DigitalPrinting" },
-    { label: "Laser Cutting", path: "/Signage/LaserCuttingEngraving" },
   ];
 
   return (

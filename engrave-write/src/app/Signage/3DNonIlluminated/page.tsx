@@ -9,15 +9,18 @@ import "react-slideshow-image/dist/styles.css";
 
 const data = [
   {
-    id: 10,
-    title: "Laser Cutting and Engraving",
-    description: "We offer the latest laser cutting and engraving services that can help you with CNC cutting, fabrication, to turn materials like stainless steel, brass, and acrylic into components you need.",
+    id: 6,
+    title: "3D Non-Illuminated Signs",
+    description: "We’re experts in crafting cost-effective and durable 3D signage that gives your brand that extra “pop”. Our team is skilled in utilizing various materials for colours and thickness like composite panel, acrylic sheets, brass, aluminum, PVC, stainless steel and use the latest in CNC & laser cutting technology to craft 3D letters that are painted with your preferred colours.",
     imagesURI: [
-      "./assets/images/LaserCutting/1.jpg",
-      "./assets/images/LaserCutting/2.jpg",
+      "./assets/images/3DNonIlluminated/1.jpg",
+      "./assets/images/3DNonIlluminated/2.jpg",
+      "./assets/images/3DNonIlluminated/3.jpg",
+      "./assets/images/3DNonIlluminated/4.jpg",
+      "./assets/images/3DNonIlluminated/5.jpg",
+      "./assets/images/3DNonIlluminated/6.jpg",
     ],
   }
-
 ];
 
 const divStyle = {
@@ -61,7 +64,7 @@ sx={{
       textAlign: "center",
     }}
   >
-    Laser Cutting and Engraving
+    3D-Non Illuminated Signage
   </Typography>
 
   <Stack
@@ -110,9 +113,9 @@ paddingTop:{
 }
 }}
 >
-Engrave Write offers expert laser cutting and engraving services on Traffolyte plastic, ideal for creating durable, high-contrast labels,
-tags, and signage. Known for its strength and readability, Traffolyte plastic is perfect for industrial and commercial applications.
-Our laser engraving provides detailed, long-lasting markings for customized and safety-compliant results.
+Our 3D non-illuminated signage provides a bold, professional look that enhances any business environment.
+Engrave Write’s high-quality, dimensional signs are crafted from durable materials, adding depth and
+sophistication to your brand’s image. Ideal for indoor and outdoor use, our 3D signs ensure your brand stands out with style.
 </Typography>
 
 
@@ -344,64 +347,6 @@ gap: 8,
   )}
 </Grid>
 ))}
-
-
-<Typography
-sx={{
-fontSize: "18px",
-fontWeight: "300",
-color: "#2C2C2C",
-lineHeight: "25px",
-marginTop: "20px",
-fontFamily: "rubik",
-textAlign: "center",
-paddingLeft: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingRight: {
-  xs: 8,
-  sm: 12,
-  md: 24,
-  lg: 36,
-},
-paddingTop:{
-  xs: 4,
-  sm: 6,
-  md: 8,
-  lg: 12,
-}
-}}
->
-
-Consultation & Planning: 
-We begin with a thorough consultation to understand your business goals, target audience, and unique requirements.
-This foundational step allows us to craft a tailored strategy that aligns with your vision.
-
-<br /><br /><br />
-User-Centric Design: 
-Our design philosophy revolves around the user experience (UX). We focus on creating intuitive navigation, engaging layouts,
-and responsive designs that adapt seamlessly to any device, ensuring a pleasant browsing experience for your visitors.
-
-<br /><br /><br />
-Custom Development: 
-We leverage the latest technologies and frameworks to build robust websites tailored to your needs. Whether you require a simple informational
-site or a complex web application, our skilled developers ensure high performance, security, and scalability.
-
-<br /><br /><br />
-Content Management Systems (CMS):
-We offer integration with popular CMS platforms like WordPress, Joomla, or custom solutions, empowering you to
-manage your content easily without requiring technical expertise.
-
-<br /><br /><br />
-Ongoing Support & Maintenance
-Our relationship doesn’t end at launch. We provide ongoing support and maintenance services to ensure you
-website remains up-to-date, secure, and functioning smoothly as your business evolves.
-
-
-</Typography>
 
 
 {data.slice(2).map((item) => (

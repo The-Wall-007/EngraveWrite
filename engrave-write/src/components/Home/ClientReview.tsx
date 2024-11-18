@@ -21,7 +21,7 @@ const reviews = [
     job: "Web Developer",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry.",
+    text: "Engrave Write exceeded our expectations! The signage is top-quality, and their team was professional from start to finish",
     reviewStar: 5,
   },
   {
@@ -30,7 +30,7 @@ const reviews = [
     job: "Web Designer",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
-    text: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+    text: "Fantastic service! Our office signs look amazing, and the IT support for our new website was seamless.",
     reviewStar: 4,
   },
   {
@@ -39,7 +39,7 @@ const reviews = [
     job: "Intern",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
-    text: "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+    text: "Highly recommend Engrave Write! They delivered our project on time, and the design is exactly what we wanted.",
     reviewStar: 5,
   },
   {
@@ -48,7 +48,7 @@ const reviews = [
     job: "The Boss",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
-    text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic.",
+    text: "Great experience working with Engrave Write! Our signs are perfect, and their digital marketing boosted our online presence",
     reviewStar: 4,
   },
   {
@@ -57,7 +57,7 @@ const reviews = [
     job: "Manager",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-5_np9x5l.jpg",
-    text: "I'm a manager at the biggest company in the world, delivering high-quality products with love and care.",
+    text: "Professional and efficient. Engrave Write’s team made our branding and website stand out!",
     reviewStar: 4,
   },
   {
@@ -66,7 +66,7 @@ const reviews = [
     job: "CEO",
     image:
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-6_np9x5l.jpg",
-    text: "As a CEO, I manage people and deliver world-class results on a daily basis with my amazing team.",
+    text: "Engrave Write helped us with everything from signage to CRM integration. Truly a one-stop solution!",
     reviewStar: 4,
   },
 ];

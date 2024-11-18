@@ -6,7 +6,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import PromiseSection from "../Home/PromiseSection";
+
 
 const divStyle = {
   display: "flex",
@@ -19,9 +19,9 @@ const divStyle = {
 const data = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Web Design",
     description:
-      "Crafting visually stunning and user-friendly websites that not only captivate your audience but also drive results. Our expert designers and developers work closely with you to create a seamless online presence that aligns with your brand identity.",
+      "At Engrave Write, we create visually stunning, user-friendly websites tailored to your brand’s identity and audience. Our design team combines aesthetics with functionality, ensuring a seamless experience for users on any device. Let us craft a unique online presence that resonates with your customers and elevates your brand.",
     imagesURI: [
       "./assets/images/IT/AuTurff.png",
       "./assets/images/IT/Auzzie.png",
@@ -32,39 +32,12 @@ const data = [
       "./assets/images/IT/Turff.png",
     ],
   },
+
   {
     id: 2,
-    title: "E-Commerce Development",
-    description: "Transform your online sales with our bespoke e-commerce solutions. We build robust, secure, and scalable platforms that provide an exceptional shopping experience, ensuring your customers can easily browse, shop, and checkout.",
-    imagesURI: [
-      "./assets/images/IT/AuTurff.png",
-      "./assets/images/IT/Auzzie.png",
-      "./assets/images/IT/Buildbourne.png",
-      "./assets/images/IT/Heating.png",
-      "./assets/images/IT/Oreve.png",
-      "./assets/images/IT/Platinum.png",
-      "./assets/images/IT/Turff.png",
-],
-  },
-  {
-    id: 3,
-    title: "SEO Services",
-    description: "Increase your visibility and attract more traffic with our tailored SEO strategies. From keyword research to on-page optimization, we implement techniques that enhance your search engine ranking and drive organic growth.",
-    imagesURI: [
-      "./assets/images/IT/AuTurff.png",
-      "./assets/images/IT/Auzzie.png",
-      "./assets/images/IT/Buildbourne.png",
-      "./assets/images/IT/Heating.png",
-      "./assets/images/IT/Oreve.png",
-      "./assets/images/IT/Platinum.png",
-      "./assets/images/IT/Turff.png",
-
-    ],
-  },
-  {
-    id: 4,
-    title: "Software and Mobile Applications Development",
-    description: "Innovate your business processes with our custom software and mobile app solutions. We develop intuitive applications that streamline operations and enhance user engagement, all while ensuring compatibility across devices.",
+    title: "Web Developer",
+    description:
+      "Our web development team builds robust, responsive websites designed for performance and scalability. From dynamic content to secure transactions, we focus on functionality and smooth user experience, meeting all your technical needs while keeping future growth in mind.",
     imagesURI: [
       "./assets/images/IT/AuTurff.png",
       "./assets/images/IT/Auzzie.png",
@@ -75,43 +48,58 @@ const data = [
       "./assets/images/IT/Turff.png",
     ],
   },
-
-  {
-    id: 5,
-    title: "Social Media Marketing",
-    description: "Engage with your audience and build brand loyalty through effective social media strategies. We create compelling content and manage campaigns that resonate with your target market, driving engagement and conversions.",
-    imagesURI: [
-      "./assets/images/IT/AuTurff.png",
-      "./assets/images/IT/Auzzie.png",
-      "./assets/images/IT/Buildbourne.png",
-      "./assets/images/IT/Heating.png",
-      "./assets/images/IT/Oreve.png",
-      "./assets/images/IT/Platinum.png",
-      "./assets/images/IT/Turff.png",
-
-    ],
-  },
-
-  {
-    id: 6,
-    title: "ERP/CRM Intigration",
-    description: "Optimize your business operations with our Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) systems. We tailor these solutions to fit your needs, helping you manage resources and improve customer interactions seamlessly.",
-    imagesURI: [
-      "./assets/images/IT/AuTurff.png",
-      "./assets/images/IT/Auzzie.png",
-      "./assets/images/IT/Buildbourne.png",
-      "./assets/images/IT/Heating.png",
-      "./assets/images/IT/Oreve.png",
-      "./assets/images/IT/Platinum.png",
-      "./assets/images/IT/Turff.png",
-
-       ],
-  },
+ 
  
 ];
 
-const ServicesSection = () => {
-  return (
+const WebDesignDevelopment = () => {
+  return <div>
+          <Stack
+        sx={{
+          backgroundColor: "#EBEBF5",
+          padding: {
+            xs: 4,
+            sm: 6,
+            md: 8,
+            lg: 12,
+          },
+        }}
+      >
+        <Stack
+          sx={{
+            display: "flex",
+            flex: 1,
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            marginBottom: 1,
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: "50px",
+              fontWeight: "500",
+              color: "#2C2C2C",
+              lineHeight: "54px",
+              fontFamily: "rubik",
+              textAlign: "center",
+            }}
+          >
+            Web Design and Development
+          </Typography>
+
+          <Stack
+            sx={{
+              marginTop: 2.5,
+              height: 8,
+              width: 96,
+              backgroundColor: "#FF3B99",
+              borderRadius: 2,
+            }}
+          />
+        </Stack>
+      </Stack>
+
     <Stack
     sx={{
       backgroundColor: "#fff"
@@ -146,12 +134,21 @@ const ServicesSection = () => {
         }
       }}
     >
-      At EngraveWrite, we are committed to helping businesses thrive in the digital age. 
-      Our comprehensive range of services—from web design and e-commerce development to SEO, 
-      software solutions, and social media marketing—ensures that we can meet your unique needs.
-      With a focus on innovation, quality, and client satisfaction, we partner with you to turn your vision into reality. 
-      Let us help you navigate the digital landscape and achieve your business goals. Contact us today to start your journey toward success!
+At Engrave Write, we understand that your website is the digital face of your brand. Our website design services go beyond aesthetics,
+focusing on creating a user experience that is engaging, accessible, and aligned with your brand identity. From wireframing to final
+design, our team works closely with you to develop a visually stunning website that reflects your brand’s personality and resonates
+with your target audience. We emphasize responsive design, ensuring your site looks and functions beautifully across all devices,
+whether on desktops, tablets, or mobile phones. Let us help you make a memorable first impression that keeps users coming back.
+
+<br /><br />
+Engrave Write’s website development services are crafted to provide seamless functionality, security, and scalability.
+Our skilled developers use the latest technologies and best practices to build robust, responsive websites that cater
+to your business needs. We handle everything from custom coding and CMS integration to backend development and third-party
+API connections. Security is a top priority, and we integrate essential measures to protect your site and its data. With
+performance and usability in mind, we ensure fast load times and a smooth experience for users. Our team is also committed
+to ongoing support, helping your website evolve with your business needs.
     </Typography>
+
 
     <Stack
       sx={{
@@ -382,7 +379,6 @@ const ServicesSection = () => {
         </Grid>
       ))}
 
-
 {data.slice(2).map((item) => (
         <Grid
           key={item.id}
@@ -597,11 +593,9 @@ const ServicesSection = () => {
         </Grid>
       ))}
 
-<PromiseSection />
     </Stack>
   </Stack>
-  
-  )
-}
+  </div>;
+};
 
-export default ServicesSection
+export default WebDesignDevelopment;

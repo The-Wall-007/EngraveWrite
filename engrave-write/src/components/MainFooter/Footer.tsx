@@ -143,19 +143,19 @@ const Footer = () => {
             >
               Quick links
             </Typography>
-            <StyledText href="/about-us">About us</StyledText>
-            <StyledText href="/safety-warning-kit-decal">
-              Safety & Warning Kit Decals
+            <StyledText href="/About">About us</StyledText>
+            <StyledText href="/Signage/">
+            Signage Solutions
             </StyledText>
-            <StyledText href="/cnc-routing">CNC Routing</StyledText>
+            <StyledText href="/Signage/CNCRouting">CNC Routing</StyledText>
             <StyledText href="/Signage/LaserCuttingEngraving">
               Laser Cutting and Engraving
             </StyledText>
-            <StyledText href="/Signage/DigitalPrinting">
-              Digital Printing
+            <StyledText href="/Signage/ExcavatorConstruction">
+            Excavator & Construction Signage
             </StyledText>
-            <StyledText href="/Signage/LaserCuttingEngraving">
-              General Signage
+            <StyledText href="/Signage/SafetyWarning">
+            Safety & Warning Kit Decals
             </StyledText>
             {/* <StyledText href="/case-study">Case Study</StyledText> */}
           </Grid>
@@ -179,17 +179,19 @@ const Footer = () => {
             >
               Our Services
             </Typography>
-            <StyledText href="/ItServices/WebDesign">Web Design</StyledText>
-            <StyledText href="/ItServices/WebDevelopment">
-              Web Development
+            <StyledText href="/ItService">IT Solutiona</StyledText>
+            <StyledText href="/ItServices/WebDesignDevelopment">
+              Web Design & Development
             </StyledText>
-            <StyledText href="/signage-solution">Signage Solution</StyledText>
-            <StyledText href="/graphics-design">Graphics Design</StyledText>
-            <StyledText href="/software-solution">Software Solution</StyledText>
-            <StyledText href="/digital-marketing">Digital Marketing</StyledText>
-            <StyledText href="/e-commerce-development">
-              E-Commerce Development
+            
+            <StyledText href="/ItServices/Ecommerce">E-Commerce Development</StyledText>
+            <StyledText href="/ItServices/seo">SEO Services</StyledText>
+            <StyledText href="/ItServices/SoftwareMobile">Software & Mobile Applications Development</StyledText>
+            
+            <StyledText href="/ItServices/SocialMedia">
+            Social Media Marketing
             </StyledText>
+            <StyledText href="/ItServices/ERP">ERP/CRM Intigration</StyledText>
           </Grid>
           <Grid
             sx={{
